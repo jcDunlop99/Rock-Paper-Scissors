@@ -8,7 +8,7 @@ import random, time
 def menu():
     print("<Welcome to my Rock, Paper, Scissors Game>")
     print("The objective is simple, play the classic decision making game")
-    print(">>>> Input 1 to start playing <<<<")
+    print(">>>> Input 1 to begin Playing <<<<")
     print(">>>> Input 2 to veiw credits <<<<")
     print(">>>> Input 3 to exit window <<<<")
     sel = int(input("Selection >> "))
