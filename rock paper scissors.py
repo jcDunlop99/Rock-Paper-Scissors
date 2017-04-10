@@ -2,7 +2,7 @@
 #RPS Program
 #start - 20170329
 #finish - 20170407
-#patch 1 20170410
+#patch#1 - 20170410
 import random, time
 
 def menu():
