@@ -2,7 +2,7 @@
 #RPS Program
 #start - 20170329
 #finish - 20170407
-#patch#1 - 20170410
+#patch1 - 20170410
 import random, time
 
 def menu():
@@ -34,15 +34,15 @@ def play():
     print(">>>> Input 3 to choose scissors <<<<")
     sel = int(input("Selection >> "))
     if sel == 1:
-        print("You chose rock")
+        print("Your tool of choice: Rock")
         time.sleep(1)
         playRock()
     elif sel == 2:
-        print("You chose paper")
+        print("Your tool of choice: Paper")
         time.sleep(1)
         playPaper()
     elif sel == 3:
-        print("You chose scissors")
+        print("Your tool of choice: Scissors")
         time.sleep(1)
         playScissors()
     elif sel == 4:
@@ -111,6 +111,5 @@ def cpuRoll():
     for i in range(15):
         roll = random.randint(1,3)
     return roll
-
 
 menu()
