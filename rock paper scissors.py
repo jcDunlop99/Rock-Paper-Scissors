@@ -29,9 +29,9 @@ def menu():
 
 def play():
     print("<Please Select Your Tool>")
-    print(">>>> Input 1 to choose rock <<<<")
-    print(">>>> Input 2 to choose paper <<<<")
-    print(">>>> Input 3 to choose scissors <<<<")
+    print(">>>> Input 1 to select rock <<<<")
+    print(">>>> Input 2 to select paper <<<<")
+    print(">>>> Input 3 to select scissors <<<<")
     sel = int(input("Selection >> "))
     if sel == 1:
         print("Your tool of choice: Rock")
