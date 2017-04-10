@@ -1,0 +1,13 @@
+def credits():
+    print("                    /")
+    print("               ,.. /")
+    print("             ,'   ';")
+    print("  ,,.__    _,' /';  .")
+    print(" :','  ~~~~    '. '~")
+    print(":' (   )         )::,")
+    print("'. '. .=----=..-~  .;'")
+    print(" '  ;'  ::   ':.  '")
+    print("   (:   ':    ;)")
+    print('''    \\    '"  ./''')
+    print('''     '"      '"''')
+    print("Written by Joshua Dunlop")
